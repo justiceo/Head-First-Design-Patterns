@@ -11,3 +11,11 @@ https://wiki.eclipse.org/JDT/Eclipse_Java_8_Support_For_Kepler
 
 Other links for the book are available on the book page at <a href="http://wickedlysmart.com/head-first-design-patterns/">wickedlysmart.com</a>.
 
+## Installing on Intellij
+
+- Download and zip project to working directory
+- Navigate to File -> New -> New from Existing Sources.
+- In the dialog that appears check Create from Existing Sources
+- Click Next through.
+
+The CombinedView module has a dependency on java.servlet.jar. Download and include this in the build path.
